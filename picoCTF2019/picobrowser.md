@@ -17,6 +17,7 @@ When clicking on the Flag link we get the following error:
 >You're not picobrowser! Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 
 Copy the request in curl format and changed the User-Agent value to picobrowser:
+
     curl 'https://jupiter.challenges.picoctf.org/problem/50522/flag' \
       -H 'Connection: keep-alive' \
       -H 'Upgrade-Insecure-Requests: 1' \
